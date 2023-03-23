@@ -31,6 +31,7 @@ body{
     display: block;
     margin-top: -10px;
 }
+/* card */
 .header-nav{
     display: flex;
     justify-content:space-between;
@@ -96,8 +97,10 @@ body{
 .content-blok2{
     text-align: center;
 }
+/* card */
 .str2-blok2{
     flex-direction: column;
+    display: flex;
 }
 .section{
     display: flex;
@@ -228,6 +231,24 @@ body{
     width: 120px;
     height: 50px;
 }
-
-
+/* card */
+.card-img-center{
+    width: 600px;
+    height: 600px;
+}
+.card-img-left{
+    width: 150px;
+}
+.card-width-l-r{
+    width: 200px;
+    border:groove 1px ;
+    text-align: center;
+}
+.card-fontsize{
+    font-size:16px;
+}
+.card-button{
+    width: 100px;
+    height: 50px;
+}
 
