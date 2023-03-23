@@ -90,6 +90,7 @@ body{
 .content{
     display: flex;
 }
+/* card */
 .content-blok2-s{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -239,16 +240,28 @@ body{
 .card-img-left{
     width: 150px;
 }
-.card-width-l-r{
+.card-width-l{
     width: 200px;
     border:groove 1px ;
     text-align: center;
 }
+.card-width-r{
+    width: 300px;
+    border:groove 1px ;
+    text-align: center;
+}
+
 .card-fontsize{
     font-size:16px;
 }
 .card-button{
-    width: 100px;
-    height: 50px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(207, 26, 26);
+    color: white;
+    cursor: pointer;
+    border-color: rgb(245, 35, 35);
+    font-family: RBNo3\.1,-apple-system,blinkmacsystemfont,San Francisco,Helvetica,sans-serif;
+    font-size: 17px;
 }
 
